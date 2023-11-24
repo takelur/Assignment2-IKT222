@@ -11,6 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATABASE = os.path.join(BASE_DIR, '../db/database.db')
 
 app = Flask(__name__)
+app.secret_key = '1234567891234567'
 
 # Function to get the sqlite3 database connection
 def get_db_connection():
@@ -349,4 +350,3 @@ if __name__ == "__main__":
     #app.config['SESSION_COOKIE_HTTPONLY'] = False
 
     app.run(debug=True)
-    
