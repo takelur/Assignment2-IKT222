@@ -1,1 +1,1 @@
-# Assignment2-IKT222
+# webapp-IKT222-SoftwareSecurity
